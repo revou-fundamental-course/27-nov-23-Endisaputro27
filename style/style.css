@@ -3,15 +3,17 @@ body {
     margin: 0;
     padding: 0;
     max-height: 100vh;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgb(255, 255, 255,);
 }
 .container {
     margin: 20px;
 }
 .row {
-    width: 1260px;
+    width: 1310px;
     display: flex;
 }
+
+
 /* ----------------------------------------------body finis--------------------------------*/
 
 
@@ -77,6 +79,11 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
 
+.navigationsatu:hover {
+    background-color: rgb(61, 42, 165);
+    color: rgb(255, 255, 255);
+  }
+
 .navigationdua {
     display: flex;
     justify-content: center;
@@ -91,6 +98,11 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
+
+.navigationdua:hover {
+    background-color: rgb(61, 42, 165);
+    color: rgb(255, 255, 255);
+  }
 
 .navigationtiga {
     display: flex;
@@ -107,6 +119,11 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
 
+.navigationtiga:hover {
+    background-color: rgb(61, 42, 165);
+    color: rgb(255, 255, 255);
+  }
+
 .navigationempat {
     display: flex;
     justify-content: center;
@@ -121,6 +138,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
+
+.navigationempat:hover {
+    background-color: rgb(61, 42, 165);
+    color: rgb(255, 255, 255);
+  }
+
 /* ---------------------------------------navigasi finish----------------------------------- */
 
 
@@ -138,6 +161,42 @@ body {
     height: 320px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.imagesatu {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.buttonrumusluas {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 50px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.buttonrumuskeliling {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 50px;
+    margin-top: 100px;
+    flex-wrap: wrap;
 }
 /* ---------------------------------------sidebar finish----------------------------------- */
 
@@ -164,6 +223,7 @@ body {
 .button {
     background-color: #04AA6D;
     border: none;
+    border-radius: 10px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -171,7 +231,13 @@ body {
     display: inline-block;
     font-size: 16px;
     margin-right: 100px;
+    flex-wrap: wrap;
 }
+
+.button:hover {
+    background-color: rgb(3, 100, 51);
+    color: rgb(255, 255, 255);
+  }
 /* ---------------------------------------conten finish----------------------------------- */
 
 
@@ -181,7 +247,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(5, 84, 255);
-    color: aliceblue;
+    color: rgb(252, 252, 252);
     position: relative;
     flex: 1;
     margin: 10px;
