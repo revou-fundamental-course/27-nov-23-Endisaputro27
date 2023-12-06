@@ -240,9 +240,182 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
-/* form */
-.formdata {
+/* ------------------------------------form input----------------------------------*/
+.calculatorForm {
+    padding: 15px 110px;
+    font-size: 24px;
     position: absolute;
+    bottom: 140px;
+    left: 60px;
+}
+.formsatu {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 15px 240px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.formsatu {
+    position: absolute;
+    bottom: 110px;
+    left: 2px;
+    padding: 10px 60px;
+}
+.formdua {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 15px 240px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.formdua {
+    position: absolute;
+    bottom: 60px;
+    left: 2px;
+    padding: 10px 60px;
+}
+.formtiga {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 15px 240px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.formtiga {
+    position: absolute;
+    bottom: 10px;
+    left: 2px;
+    padding: 10px 60px;
+}
+.formempat {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 15px 240px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.formempat {
+    position: absolute;
+    bottom: -40px;
+    left: 2px;
+    padding: 10px 60px;
+}
+
+.jumlah {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 15px 240px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.jumlah {
+    position: absolute;
+    bottom: 100px;
+    left: 320px;
+    padding: 15px 60px;
+}
+.jumlah:hover {
+    background-color: rgb(3, 100, 51);
+    color: rgb(255, 255, 255);
+}
+.kali {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 15px 240px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+.kali {
+    position: absolute;
+    bottom: 40px;
+    left: 320px;
+    padding: 15px 70px;
+}
+.kali:hover {
+    background-color: rgb(3, 100, 51);
+    color: rgb(255, 255, 255);
+}
+/* -----------------------------------form output----------------------------------*/
+p {
+    background-color: rgb(168, 163, 163);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 240px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+p {
+    position: absolute;
+    bottom: -120px;
+    left: 2px;
+    padding: 25px 260px;
+}
+
+
+
+/*.button-clear {
+    background-color: rgb(231, 58, 52);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 240px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+.button-clear:hover {
+    background-color: rgb(145, 10, 6);
+    color: rgb(255, 255, 255);
+  }
+.button-clear {
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
 }
 
 .button {
@@ -267,7 +440,7 @@ body {
     position: absolute;
     bottom: 20px;
     left: 60px;
-}
+}*/
 /* ---------------------------------------conten finish----------------------------------- */
 
 
