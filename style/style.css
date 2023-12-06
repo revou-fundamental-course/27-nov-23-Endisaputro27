@@ -1,5 +1,196 @@
-/* hanya uji coba aja dulu */
-/* ada perubahan data part 1*/
-style {
-    font-style: italic;
+/* -----------------------------------------body start-------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
 }
+.container {
+    margin: 20px;
+}
+.row {
+    width: 100 %;
+    display: flex;
+}
+/* ----------------------------------------------body finis--------------------------------*/
+
+
+/* ----------------------------------------------heder start ------------------------------*/
+.hidersatu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0,);
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 100%;
+    height: 80px;
+    font-size: 30px;
+}
+/* ----------------------------------------------heder Finish -----------------------------*/
+
+
+/* ----------------------------------------------text start--------------------------------*/
+.textsatu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex: 1;
+    margin: 10px;
+    max-width: 100%;
+    height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textdua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 84, 255);
+    text-align: center;
+    font-style: italic ;
+    flex: 1;
+    margin: 10px;
+    max-width: 100%;
+    height: 10px;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ----------------------------------------------text finish--------------------------------*/
+
+
+/* ---------------------------------------navigasi start----------------------------------- */
+.navigationsatu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 84, 255);
+    color: aliceblue;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 25%;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.navigationdua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 84, 255);
+    color: aliceblue;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 25%;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.navigationtiga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 84, 255);
+    color: aliceblue;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 25%;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.navigationempat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 84, 255);
+    color: aliceblue;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 25%;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+/* ---------------------------------------navigasi finish----------------------------------- */
+
+
+/* ---------------------------------------sidebar start----------------------------------- */
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 80, 80);
+    color: aliceblue;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 50%;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+/* ---------------------------------------sidebar finish----------------------------------- */
+
+
+/* ---------------------------------------conten start----------------------------------- */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 80, 80);
+    color: aliceblue;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 50%;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+.formdata {
+    border: none;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 100px;
+}
+/* ---------------------------------------conten finish----------------------------------- */
+
+
+/* ---------------------------------------footer start----------------------------------- */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 84, 255);
+    color: aliceblue;
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    max-width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+/* ---------------------------------------footer finish----------------------------------- */
+
+
+
