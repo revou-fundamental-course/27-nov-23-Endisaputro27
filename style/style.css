@@ -22,7 +22,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0,);
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
     position: relative;
     flex: 1;
     margin: 10px;
@@ -164,9 +165,13 @@ body {
 }
 
 .imagesatu {
-    max-width: 200px;
+    max-width: 250px;
     border-radius: 10px;
     margin-bottom: 100px;
+}
+.imagesatu {
+    position: absolute;
+    top: 20px;
 }
 
 .buttonrumusluas {
@@ -174,7 +179,7 @@ body {
     border: none;
     border-radius: 10px;
     color: white;
-    padding: 15px 62px;
+    padding: 15px 42px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -183,13 +188,22 @@ body {
     margin-top: 100px;
     flex-wrap: wrap;
 }
+.buttonrumusluas {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+.buttonrumusluas:hover {
+    background-color: rgb(3, 100, 51);
+    color: rgb(255, 255, 255);
+}
 
 .buttonrumuskeliling {
     background-color: #04AA6D;
     border: none;
     border-radius: 10px;
     color: white;
-    padding: 15px 2px;
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -197,6 +211,16 @@ body {
     margin-right: 50px;
     margin-top: 100px;
     flex-wrap: wrap;
+    inline-size: 30px 90px;
+}
+.buttonrumuskeliling {
+    position: absolute;
+    bottom: 20px;
+    left: 340px;
+}
+.buttonrumuskeliling:hover {
+    background-color: rgb(3, 100, 51);
+    color: rgb(255, 255, 255);
 }
 /* ---------------------------------------sidebar finish----------------------------------- */
 
@@ -216,8 +240,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
+/* form */
 .formdata {
-    border: none;
+    position: absolute;
 }
 
 .button {
@@ -225,7 +250,7 @@ body {
     border: none;
     border-radius: 10px;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 235px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -238,6 +263,11 @@ body {
     background-color: rgb(3, 100, 51);
     color: rgb(255, 255, 255);
   }
+.button {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
 /* ---------------------------------------conten finish----------------------------------- */
 
 
